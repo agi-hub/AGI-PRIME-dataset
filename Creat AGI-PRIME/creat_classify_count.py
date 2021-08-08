@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 random.seed(2021)
 
 def main(back=True):
-    IST = 'COUNTBYCATEGORY'
+    IST = 'Counting by Category'
     json_data_list = {}
 
     path='./data/'

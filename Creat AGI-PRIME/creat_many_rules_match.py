@@ -6,7 +6,7 @@ import shutil
 random.seed(2021)
 
 def main():
-    IST = 'FINDMULTRULE'
+    IST = 'Multi-rule Learning'
     json_data_list = {}
 
     path='./data/'

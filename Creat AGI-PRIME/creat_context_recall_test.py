@@ -144,7 +144,7 @@ def context(path,json_data_list):
     return json_data_list
 
 def main():
-    IST = 'RECALLSENSE'
+    IST = 'Context Recalling'
     json_data_list = {}
 
     path='./data/'

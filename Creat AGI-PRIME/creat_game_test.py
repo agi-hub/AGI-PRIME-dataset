@@ -86,7 +86,7 @@ def game(path,json_data_list,back=False):
     return json_data_list
 
 def main():
-    IST = 'GAMESTONE'
+    IST = 'Guessing Games'
     json_data_list = {}
 
     path='./data/'

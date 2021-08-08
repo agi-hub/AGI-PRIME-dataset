@@ -12,7 +12,7 @@ matplotlib.use('Agg')
 random.seed(2021)
 
 def main(back=True):
-    IST = 'FINDDIFFERENCE'
+    IST = 'Finding the differences'
     json_data_list = {}
 
     path='./data/'

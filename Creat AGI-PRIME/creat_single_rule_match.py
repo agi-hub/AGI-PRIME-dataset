@@ -6,7 +6,7 @@ import shutil
 random.seed(2021)
 
 def main():
-    IST = 'SINGLERULEMATCH'
+    IST = 'Single-rule Learning'
     json_data_list = {}
 
     path='./data/'

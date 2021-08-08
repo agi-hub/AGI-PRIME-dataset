@@ -51,7 +51,7 @@ def obre(path,p,json_data_list,back=False):
     return json_data_list
 
 def main():
-    IST = 'RECALLCOUNT'
+    IST = 'Objects Recalling'
     json_data_list = {}
 
     path='./data/'

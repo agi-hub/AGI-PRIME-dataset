@@ -8,7 +8,7 @@ random.seed(2021)
 
 
 def main():
-    IST = 'APPLYOPERATOR'
+    IST = 'Application of Mathematical Operators'
     json_data_list = {}
 
     path='./data/'

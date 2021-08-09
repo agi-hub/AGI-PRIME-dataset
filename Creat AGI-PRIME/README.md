@@ -1,69 +1,26 @@
-# AGI-BABY Dataset
+# AGI-PRIME Dataset
 
 
 ### Configuration requirements
 - Python = 3.6.12
 - PyTorch = 1.3.1
-- mxnet = 1.7.0
 
-### Instructions
-
-#### 1. Deep neural network
-#### 1.1 Direct training
-1. Using ResNet18+LSTM structure, each task has a separate folder, and the folder path is as follows:
+### Generation
+#### Code structure
+The training set and test set of each task are generated separately and saved separately. Take the example of Finding the Differences: when the training set is generated, run:
 ```
-agi_baby
-├── /baseline/
-│  ├── /classify_count/
-│  │  └──  main.py
-│  │...
+AGI-PRIME-dataset
+├── /Creat AGI-PRIME/
+│  ├── /creat_find_different.py/
 ```
-2. Modify the corresponding task main.py Data set path inside
-3. Run the corresponding task main.py file
-eg:
+when the test set is generated, run:
 ```
-python main.py
+AGI-PRIME-dataset
+├── /Creat AGI-PRIME/
+│  ├── /creat_find_different_test.py/
 ```
-#### 1.2 transfer
-
-1. E.g FDT ---> CCT
-    Run the corresponding task main file eg 10:
-   ```
-   python main_10.py
-   ```
-
-
-#### 2. Pre-programmed reasoning logic with vision fea-ture extraction network
-#### 2.1 MOCO
-
-1. Using MOCO as feature extraction network, each task is a separate Python file, and the file path is as follows:
-```
-agi_baby
-├── /AGI_BABY_lib_MOCO/
-│  ├── find_differents.py
-│  │...
-```
-2. Modify the dataset path in the corresponding task Python
-3. Run the python file of the corresponding task
-eg:
-```
-python find_differents.py
-```
-
-##### 2.2 our
-1. Using our own mxnet network as the feature extraction network, each task is a separate Python file. The file path is as follows:
-```
-agi_baby
-├── /AGI_BABY_lib/
-│  ├── find_differents.py
-│  │...
-```
-2. Modify the dataset path in the corresponding task Python
-3. Run the python file of the corresponding task
-eg:
-```
-python find_differents.py
-```
+#### Other details
+The basic icons are saved in the svg-png-gray folder in the current directory, and the background pictures are saved in the background folder. The AGI-PRIME dataset is generated without background noise, and only the basic icons are used for generation.
 
 
 
